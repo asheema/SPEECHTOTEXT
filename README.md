@@ -1,4 +1,4 @@
-# Local Speech-to-Text API (No Groq)
+# Local Speech-to-Text API 
 
 This project uses **faster-whisper** to transcribe audio locally. It does not call Groq or require a Groq API key. FFmpeg is not a separate requirement for the standard `faster-whisper` install because audio decoding is handled through PyAV; if a particular media file cannot be decoded, install FFmpeg and convert it to WAV/MP3.
 
